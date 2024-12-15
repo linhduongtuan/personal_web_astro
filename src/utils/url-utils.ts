@@ -16,10 +16,10 @@ export function getPostUrlBySlug(slug: string): string {
   return url(`/posts/${slug}/`)
 }
 
-export function getCategoryUrl(category: string): string {
+export function getCategoryUrl(category: string, folderPath = 'blog'): string {
   if (category === i18n(i18nKey.uncategorized))
-    return url('/archive/category/uncategorized/')
-  return url(`/archive/category/${category}/`)
+    return url(`/${folderPath}/category/uncategorized/`)
+  return url(`/${folderPath}/category/${category}/`)
 }
 
 export function getDir(path: string): string {

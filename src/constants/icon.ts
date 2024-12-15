@@ -42,3 +42,11 @@ export const defaultFavicons: Favicon[] = [
     sizes: '192x192',
   },
 ]
+export const navigationIcons = {
+  home: '🏠',
+  blog: '📚',
+  about: 'ℹ️',
+  search: '🔍',
+  research: '🔬',
+  publications: '📖',
+}
