@@ -1,7 +1,6 @@
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
 import tailwind from '@astrojs/tailwind'
-import vercel from '@astrojs/vercel/serverless'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
@@ -22,10 +21,8 @@ import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'server',
-  adapter: vercel(),
-  site: 'https://linhduongtuan.github.io',
-  base: 'my-blog-astro',
+  site: 'https://linhduongtuan.vercel.app/',
+  base: '/',
   trailingSlash: 'always',
   integrations: [
     tailwind({
