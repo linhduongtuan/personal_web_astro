@@ -1,17 +1,17 @@
-# 🍥Fuwari
+# This personal blog is powered by the 🍥Fuwari's [**code**](https://github.com/saicaca/fuwari)
 
 A static blog template built with [Astro](https://astro.build).
 
-[**🖥️ Live Demo (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**📦 Old Hexo Version**](https://github.com/saicaca/hexo-theme-vivia)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 中文**](https://github.com/saicaca/fuwari/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 日本語**](https://github.com/saicaca/fuwari/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 한국어**](https://github.com/saicaca/fuwari/blob/main/README.ko.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
-[**🌏 Español**](https://github.com/saicaca/fuwari/blob/main/README.es.md)
+[**🖥️ Live Demo (Vercel)**](https://personal-web-astro-zx8v.vercel.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🌏 中文**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🌏 日本語**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🌏 한국어**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ko.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🌏 Español**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.es.md)
+[**🌏 Tiếng Việt **](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.vi.md)
 
-> README version: `2024-09-10`
+> README version: `2024-12-15`
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+![Preview Image](https://github.com/linhduongtuan/personal_web_astro/blob/main/src/assets/images/demo_page.png)
 
 ## ✨ Features
 
@@ -20,9 +20,10 @@ A static blog template built with [Astro](https://astro.build).
 - [x] Light / dark mode
 - [x] Customizable theme colors & banner
 - [x] Responsive design
-- [ ] Comments
 - [x] Search
 - [ ] TOC
+- [ ] Dashboards
+- [ ] Comments
 
 ## 🚀 How to Use
 
@@ -44,7 +45,7 @@ image: ./cover.jpg
 tags: [Foo, Bar]
 category: Front-end
 draft: false
-lang: jp      # Set only if the post's language differs from the site's language in `config.ts`
+lang: en      # Set only if the post's language differs from the site's language in `config.ts`
 ---
 ```
 
@@ -61,3 +62,34 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm new-post <filename>`          | Create a new post                                |
 | `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
 | `pnpm astro --help`                 | Get help using the Astro CLI                     |
+
+## How to Deploy Your Code on Vercel:
+- **Step 1. Create a Vercel Account:** Head over to the Vercel website (https://vercel.com/) and sign up for a free account
+
+- **Step 2. Clone the Repository (Optional):** If you want to customize the code before deploying, clone this repository to your local machine using Git. You can find instructions on cloning repositories online or in the Git documentation.
+
+- **Step 3. Deploy Your Project:**
+
+- Step 3.1. Vercel offers two ways to deploy your code:
+
+   Direct Deployment (Recommended):
+
+   Open a terminal in your project directory (if you cloned the repository).
+  
+   Run the command `vercel --prod` to initiate deployment.
+
+   This will guide you through linking your Vercel account and automatically deploying your project.
+  
+   Deployment through Vercel Interface:
+
+- Step 3.2. If you prefer a web interface, navigate to your Vercel dashboard after linking your account:
+  
+   Click "Import Project" and select your preferred method (e.g., GitHub, GitLab, etc.) to connect the repository containing your code
+  
+   Follow the on-screen instructions to complete the deployment process.
+
+- **Step 4. Access Your Deployed Project:** Once the deployment is successful, Vercel will provide you with a unique URL where you can access your live website.
+  
+- **You also deploy it to other Platforms following [this official documents here](https://docs.astro.build/en/guides/deploy/)**
+
+Enjoy!
