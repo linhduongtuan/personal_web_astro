@@ -93,3 +93,8 @@ All commands are run from the root of the project, from a terminal:
 - **You also deploy it to other Platforms following [this official documents here](https://docs.astro.build/en/guides/deploy/)**
 
 Enjoy!
+
+### Modify from the sources:
+- https://github.com/saicaca/fuwari
+- https://github.com/satnaing/astro-paper
+
