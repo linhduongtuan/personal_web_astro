@@ -7,7 +7,7 @@ A static blog template built with [Astro](https://astro.build).
 [**🌏 日本語**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**🌏 한국어**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ko.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**🌏 Español**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.es.md)
-[**🌏 Tiếng Việt **](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.vi.md)
+[**🌏 Tiếng Việt**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.vi.md)
 
 > README version: `2024-12-15`
 
