@@ -2,7 +2,7 @@
 
 A static blog template built with [Astro](https://astro.build).
 
-[**🖥️ Live Demo (Vercel)**](https://personal-web-astro-zx8v.vercel.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+[**🖥️ Live Demo (Vercel)**](https://linhduong-blog-git-main-linhduongtuans-projects.vercel.app/)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**🌏 中文**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**🌏 日本語**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
 [**🌏 한국어**](https://github.com/linhduongtuan/personal_web_astro/blob/main/README.ko.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
